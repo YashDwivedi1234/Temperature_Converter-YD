@@ -1,0 +1,68 @@
+      {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+          background-color:#ED09D5;
+          width: 100%;
+          height: 85vh;
+        display: grid;
+        place-content: center;
+        background: rgb(179, 211, 255);
+          width: 100%;
+          height: 85vh;
+    background-color: yellowgreen
+    justify-content: center;
+    align-items: center;
+}
+      main {
+        border-radius: 10px;
+        background-color: black;
+        box-shadow: 2px 2px 5px rgb(5, 86, 139);
+        padding: 2rem;
+      }
+      #form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+      }
+      .convert {
+        all: unset;
+        color: white;
+        background-color: green;
+        font-weight: bold;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+      }
+      input,
+      select {
+        margin-block-end: 1rem;
+        font-size: 1.15rem;
+      }
+      .label {
+        color: red;
+        font-size: 0.95rem;
+          font-weight: bold;
+          font-weight: 900;
+      }
+      label {
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+          font-weight: bold;
+          font-weight: 900;
+      }
+      .result {
+        font-size: 1.1rem;
+        font-weight: bolder;
+      }
+      .text {
+          font-weight: bold;
+          font-weight: 900;
+          padding: 60px;
+          background:yellow;
+      }
